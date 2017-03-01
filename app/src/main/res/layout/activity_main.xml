@@ -8,10 +8,27 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
     tools:context="com.example.leo.uninstallanimation.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <View
+        android:id="@+id/measure_view"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@android:color/holo_blue_bright" />
+
+    <!--<com.example.leo.uninstallanimation.CircleView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:circle_color="#ff00ff"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:id="@+id/circleView" />-->
 </RelativeLayout>
